@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.img-logo {
+    width: 70px;
+    height: 40px;
+}
+
+.col-w1-c {
+    width: 10px;
+}
+
+.f-weight-light {
+    font-weight: 300;
+    color: #CCCCCC;
+}
