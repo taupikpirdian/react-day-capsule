@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body {
+    background-color: #111827;
+}
+
 .img-logo {
     width: 70px;
     height: 40px;
@@ -14,4 +19,20 @@
 .f-weight-light {
     font-weight: 300;
     color: #CCCCCC;
+}
+
+.form-control {
+    @apply bg-gray-50 border border-gray-300 rounded-lg p-2 
+           focus:outline-none focus:ring-2 focus:ring-[#F6A417] 
+           dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white;
+}
+
+.label {
+    @apply block mb-2 text-sm font-medium text-gray-900 dark:text-white;
+}
+
+.fc-checkbox {
+    @apply w-4 h-4 border border-gray-300 rounded bg-gray-50 
+        focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 
+        dark:focus:ring-blue-600 dark:ring-offset-gray-800;
 }
