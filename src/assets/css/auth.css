@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #111827;
+}
+
+.img-logo {
+    width: 70px;
+    height: 40px;
+}
+
+.col-w1-c {
+    width: 10px;
+}
+
+.f-weight-light {
+    font-weight: 300;
+    color: #CCCCCC;
+}
+
+.form-control {
+    @apply bg-gray-50 border border-gray-300 rounded-lg p-2
+           focus:outline-none focus:ring-2 focus:ring-[#F6A417]
+           dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white;
+    width: 100%;
+}
+
+.label {
+    @apply block mb-2 text-sm font-medium text-gray-900 dark:text-white;
+}
+
+.fc-checkbox {
+    @apply w-4 h-4 border border-gray-300 rounded bg-gray-50
+        focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600
+        dark:focus:ring-blue-600 dark:ring-offset-gray-800;
+}
+
+.form-google {
+    @apply flex items-center justify-center w-full px-5 py-1.5 items-center text-center text-white h-10 rounded mb-7 mt-5 border border-[#374151] mr-2;
+}
+
+.hr-c1 {
+    @apply h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 mr-2;
+    width: 100%;
+}
+
+.img-google {
+    width: 5%;
+}
+
+.btn-c-submit {
+    @apply text-white bg-[#B6790B] hover:bg-[#976201] font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center
+}
